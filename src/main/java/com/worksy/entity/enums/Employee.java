@@ -14,7 +14,7 @@ public class Employee {
     @Id
     private int id;
     private String name;
-    private String PAssword;
+    private String Password;
     private String address;
     private String details;
 }
