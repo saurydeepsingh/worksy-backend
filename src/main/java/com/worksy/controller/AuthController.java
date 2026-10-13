@@ -26,7 +26,6 @@ public class AuthController {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(ApiResponse.success("User registered successfully", response));
     }
-
     @Operation(summary = "Register a new HR / recruiter account (pending admin approval)")
     @PostMapping("/hr/register")
     public ResponseEntity<ApiResponse<AuthResponse>> registerHR(@Valid @RequestBody RegisterHRRequest request) {
