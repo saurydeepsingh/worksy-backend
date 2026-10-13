@@ -17,4 +17,5 @@ public class Employee {
     private String Password;
     private String address;
     private String details;
+    private long phonenumber;
 }
